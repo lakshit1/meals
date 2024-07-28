@@ -5,7 +5,9 @@
     pkgs.jdk17
     pkgs.unzip
   ];
-  command = ["git config --global user.email \"51991640+lakshit1@users.noreply.github.com\""];
+  idx.workspace.onStart = {
+    set-git-email = "git config --global user.email '51991640+lakshit1@users.noreply.github.com'";
+  };
   idx.extensions = [
     "Dart-Code.dart-code"
     "Dart-Code.flutter"
