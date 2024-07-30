@@ -11,7 +11,6 @@
   idx.extensions = [
     "Dart-Code.dart-code"
     "Dart-Code.flutter"
-    "robert-brunhage.flutter-riverpod-snippets"
   ];
   idx.previews = {
     previews = {
